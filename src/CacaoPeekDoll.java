@@ -25,6 +25,8 @@ public class CacaoPeekDoll {
                         }
                     }
                     board[j][target] = 0;
+                    //break문을 빠뜨렸음!!
+                    break;
                 }
             }
         }
